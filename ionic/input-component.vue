@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {IonInput} from "@ionic/vue"
-import { unformat } from "@/directives/mask/money/util.js"
+import { unformat } from "/directive/util.js"
 
 const emits = defineEmits(['input-money'])
 const inputOptions = {prefix: '', suffix: '', thousands: '.', decimal: ',', precision: 2}

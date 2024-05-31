@@ -38,8 +38,8 @@
     </div>
 
     <!--
-    Example of use:
-    <input-money :value="expense.value" title="Valor Parcela" @input-money="amount = $event" :use-floating-labels="true"/>
+    Example of use (this example component use bootstrap classes and fontawesome icons):
+    <input-component :value="expense.value" title="Valor Parcela" @input-money="amount = $event" :use-floating-labels="true"/>
     -->
 </template>
 
